@@ -1,0 +1,44 @@
+body {
+    background-color:#bfc7ca;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+#input{
+  border-radius: 3px; 
+  margin: 0 5px 25px 25px;
+  padding: 5px 25px;
+  background-color:#c5e0ff;
+  font-family: 'Geo', sans-serif;
+  font-size:120%;
+  color:#5d6d7c;
+}
+  button {
+    background-color: rgb(178, 209, 239);
+    color: #FBF7EEff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  textarea{
+  background-color: rgb(203, 221, 246);
+  border-radius: 3px; 
+  font-family: 'Geo', sans-serif;
+  font-size:120%;
+  color:#413c48;
+  }
+  h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Courier New", Monospace;
+    padding-bottom: 5px;
+    color: #5a6d91;
+  }
